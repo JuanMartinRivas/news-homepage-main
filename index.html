@@ -11,28 +11,15 @@
 
 <body>
   <header>
-    <div class="container row">
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" alt="W logo">
-      </a>
-      <button class="nav-toggle">
-        <img src="./assets/images/icon-menu.svg" alt="Hamburger Menu">
-      </button>
-      <nav class="nav-desktop">
-        <ul class="nav-list">
-          <li class="nav-list-item"><a href="#">Home</a></li>
-          <li class="nav-list-item"><a href="#">New</a></li>
-          <li class="nav-list-item"><a href="#">Popular</a></li>
-          <li class="nav-list-item"><a href="#">Trending</a></li>
-          <li class="nav-list-item"><a href="#">Categories</a></li>
-        </ul>
-      </nav>
-      <div class="m-menu-overlay"></div>
-      <div class="m-menu">
-        <button class="nav-close">
-          <img src="./assets/images/icon-menu-close.svg" alt="Close Hamburger Menu">
+    <div class="container">
+      <div class="nav-flex">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="W logo">
+        </a>
+        <button class="nav-toggle">
+          <img src="./assets/images/icon-menu.svg" alt="Hamburger Menu">
         </button>
-        <nav class="nav-mobile">
+        <nav class="nav-desktop">
           <ul class="nav-list">
             <li class="nav-list-item"><a href="#">Home</a></li>
             <li class="nav-list-item"><a href="#">New</a></li>
@@ -42,15 +29,32 @@
           </ul>
         </nav>
       </div>
+      <div class="m-menu-overlay"></div>
+      <div class="m-menu">
+        <div class="container">
+          <button class="nav-close">
+            <img src="./assets/images/icon-menu-close.svg" alt="Close Hamburger Menu">
+          </button>
+          <nav class="nav-mobile">
+            <ul class="nav-list">
+              <li class="nav-list-item"><a href="#">Home</a></li>
+              <li class="nav-list-item"><a href="#">New</a></li>
+              <li class="nav-list-item"><a href="#">Popular</a></li>
+              <li class="nav-list-item"><a href="#">Trending</a></li>
+              <li class="nav-list-item"><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
     <section class="hero">
-      <div class="container row">
+      <div class="container row--desktop">
         <div class="main-news">
           <picture>
             <source srcset="./assets/images/image-web-3-desktop.jpg" media="(min-width: 900px)">
             <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3 picture">
           </picture>
-          <div class="text-container row">
+          <div class="text-container row--desktop">
             <div class="title-container">
               <h1 class="main-news-title">The Bright Future of Web 3.0?</h1>
             </div>
@@ -83,8 +87,8 @@
     </section>
   </header>
   <section class="news-section">
-    <div class="container row">
-      <div class="news-box row">
+    <div class="container row--desktop">
+      <div class="news-box row--desktop">
         <img src="./assets/images/image-retro-pcs.jpg" alt="News image">
         <div class="news-text-container">
           <h1 class="news-number">01</h1>
@@ -92,7 +96,7 @@
           <p class="news-text">What happens when old PCs are given modern upgrades?</p>
         </div>
       </div>
-      <div class="news-box row">
+      <div class="news-box row--desktop">
         <img src="./assets/images/image-top-laptops.jpg" alt="News image">
         <div class="news-text-container">
           <h1 class="news-number">02</h1>
@@ -100,7 +104,7 @@
           <p class="news-text">Our best picks for various needs and budgets.</p>
         </div>
       </div>
-      <div class="news-box row">
+      <div class="news-box row--desktop">
         <img src="./assets/images/image-gaming-growth.jpg" alt="News image">
         <div class="news-text-container">
           <h1 class="news-number">03</h1>
