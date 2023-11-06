@@ -1,0 +1,22 @@
+.secondary-news {
+  background-color: $very-dark-blue;
+  color: $off-white;
+  padding-top: 1em;
+  margin-top: 4em;
+
+  .secondary-news-title {
+    color: $soft-orange;
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  .secondary-news-box {
+    border-bottom: 1px solid $dark-grayish-blue;
+    padding-bottom: 2em;
+
+    .news-text {
+      color: $grayish-blue;
+      margin: 0;
+    }
+  }
+}
