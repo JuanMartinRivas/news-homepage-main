@@ -1,0 +1,27 @@
+.main-news-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.main-news-text {
+  color: $dark-grayish-blue;
+}
+
+.main-news-button {
+  cursor: pointer;
+  color: $off-white;
+  letter-spacing: 0.2em;
+  background-color: $soft-red;
+  border: none;
+  padding: 1em 2em;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: all 0.25s;
+
+  &:hover,
+  &:focus {
+    background-color: $very-dark-blue;
+  }
+}

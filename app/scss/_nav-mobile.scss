@@ -72,4 +72,8 @@
   &:focus {
     background-color: #5d5f7940;
   }
+
+  @media (min-width:900px) {
+    display: none;
+  }
 }
