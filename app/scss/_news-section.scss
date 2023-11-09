@@ -1,11 +1,35 @@
-.news-box{
-    margin-bottom: 3em;
-    gap: 1.5em;
-    img{
-        width: 50%;
-        height: auto;
+.news-box {
+  margin-bottom: 3em;
+  gap: 1.5em;
+
+  .news-number {
+    margin: 0;
+    margin-bottom: .25em;
+    color: $grayish-blue;
+    font-size: 2rem;
+  }
+
+  .news-title {
+    margin: 0;
+    margin-bottom: .25em;
+    transition: 0.25s;
+
+    &:hover,
+    &:focus {
+      color: $soft-red;
     }
-    .news-text-container{
-        width: 50%;
-    }
+  }
+
+  .news-text {
+    margin: 0;
+    color: $dark-grayish-blue;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  .news-text-container {
+    flex: 3;
+  }
 }
