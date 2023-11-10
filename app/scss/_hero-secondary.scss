@@ -14,14 +14,18 @@
     border-bottom: 1px solid $dark-grayish-blue;
     padding-bottom: 2em;
 
-    .news-title a{
-      cursor: pointer;
-      transition: all 0.25s;
-      color: inherit;
+    .news-title {
+      font-size: 1.25rem;
 
-      &:hover,
-      &:focus {
-        color: $soft-orange;
+      a {
+        cursor: pointer;
+        transition: all 0.25s;
+        color: inherit;
+
+        &:hover,
+        &:focus {
+          color: $soft-orange;
+        }
       }
     }
 
@@ -29,5 +33,9 @@
       color: $grayish-blue;
       margin: 0;
     }
+  }
+
+  @media (min-width: 900px) {
+    margin: 0;
   }
 }

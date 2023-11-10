@@ -1,6 +1,20 @@
 .nav-desktop {
   display: none;
   @media (min-width: 900px) {
-    display: block;
+    display: flex;
+    align-items: center;
+    .nav-list {
+      display: flex;
+      gap: 3em;
+      color: $dark-grayish-blue;
+
+      .nav-list-item {
+        transition: all 0.25s;
+        &:hover,
+        &:focus {
+          color: $soft-red;
+        }
+      }
+    }
   }
 }

@@ -13,7 +13,7 @@
     background-color: #fff;
     border: none;
     border-radius: 50%;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 80%;
     width: 45px;
     height: 45px;
@@ -59,7 +59,10 @@
 .nav-flex {
   display: flex;
   justify-content: space-between;
-  margin: 1em 0;
+  margin: 2em 0;
+  @media (min-height: 900px) {
+    margin: 3em 0;
+  }
 }
 
 .nav-toggle {
@@ -76,7 +79,7 @@
     background-color: #5d5f7940;
   }
 
-  @media (min-width:900px) {
+  @media (min-width: 900px) {
     display: none;
   }
 }
