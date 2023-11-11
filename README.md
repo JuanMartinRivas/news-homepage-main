@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub?share=true)
+- Live Site URL: [Site](https://juanmartinrivas.github.io/news-homepage-pages/)
 
 ## My process
 
@@ -61,4 +61,4 @@ The most challenging part of this project was making the hamburger menu for the 
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my [solution](https://your-solution-url.com). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my [solution](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub?share=true). It definitely helps to find new ways to code and find easier solutions!
