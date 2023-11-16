@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
+  background: $off-white;
 }
 
 img {
@@ -26,6 +27,7 @@ ul {
 
 a {
   text-decoration: none;
+
   &:visited {
     color: inherit;
   }
@@ -36,7 +38,7 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  
+
   @media (min-width: 900px) {
     width: 80%;
   }
